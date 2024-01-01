@@ -1,0 +1,81 @@
+    @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+    @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+    @font-face
+    {
+        font-family: "Kdam Thmor Pro";
+        src: url(static/fonts/KdamThmorPro-Regular.ttf) format('truetype');
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background-image: url('pic11651.jpg');
+    }
+    .attend
+    {
+        text-align:  center;
+        color:black;
+        font-family:  'Kdam Thmor Pro', sans-serif ;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .attend:hover
+    {
+        background-color:rgb(36,41,46);
+        color: white;
+    }
+    .logo
+    {
+        /* box-shadow: 0px 2px 5px #777; */
+        /* background-color:n; */
+        position: sticky;
+        overflow: hidden;
+        text-decoration: none;
+        height: fit-content;
+        width: 100%;
+    }
+    .start
+    {
+        /* font-family: 'Kdam Thmor Pro', sans-serif; */
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:black;
+        text-align: center;
+        font-size: larger;
+        font-size: 30px;
+        /* padding-top: 10px; */
+        /* margin-top: 10px; */
+        /* left: 20px; */
+        position: sticky; 
+        
+    }
+    .thik
+    {
+        /* background-color: blueviolet; */
+        padding-top: 50px;
+        height: 700px;
+        text-align: center;
+    }
+    .topnav {
+        /* overflow: hidden; */
+        position: sticky;
+        /* background-color: #333; */
+    }
+    
+    .topnav a {
+        float:none;
+        color: hwb(80 62% 30%); 
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd; 
+        color: black;
+    }
+    
+    
